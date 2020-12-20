@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+	overflow-x: hidden;
+	font-family:'Lato', sans-serif;
+	color: #505962;
+}
+
+/*Navigation*/
+
+.navbar{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-barnd img{
+	height: 2rem;
+}
+.navbar-nav li{
+	padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #1ebba3;
+}
+
+/*Landing page*/
+
+.home-inner{
+	background-image: url("Front Pic/moun.jpg");
+}
+.caption{
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 38%;
+	z-index: 1;
+	color: white;
+	text-transform: uppercase;
+}
+.caption h1{
+	font-size: 3.8rem;
+	font-weight: 700;
+	letter-spacing: .3rem;
+	text-shadow: .1rem .1rem .8rem black;
+	padding-bottom: 1rem;
+}
+.caption h3{
+	font-size: 2rem;
+	text-shadow: .1rem .1rem .5rem black;
+	padding-bottom: 1.6rem;
+}
+.btn-lg{
+	border-width: medium;
+	border-redius: 0;
+	padding: .6rem 1.3rem;
+	font-size: 1.1rem;
+}
+
+
+/*End Of Landing page*/
+
+
+
+
+
+
+/*Events page*/
+
+.Events .card{
+	backface-visibility: hidden;
+	background-color: transparent;
+	border: hidden;
+	
+	
+	
+}
+.Events .card-img-top{
+	object-fit: cover;
+	border-radius: 5px;
+	height: 212px;
+	
+	
+}
+.Events .heading-1{
+	margin-top: 8%;
+	margin-bottom: 5%;
+	text-transform: uppercase;
+	color: black;
+}
+.Events .para-1{
+	width: 60%;
+	margin-left: 20%;
+	margin-bottom: 5%;
+}
+.Events .card-text, .para-1{
+	color: rgba(0,0,0,0.79);
+}
+.Events .card-title{
+	text-transform: uppercase;
+	color: rgba(0,0,0,0.89);
+}
+.heading-underline{
+	width: 5rem;
+	height: .2rem;
+	background-color: #1ebba3;
+	margin: -2rem auto 2rem;
+}
+.fixed{
+background-image: url("Activitis pictures/kirsty-barnby-JbZG7U093Bw-unsplash.jpg");
+	z-index: -1;
+}
+
+/*End of Events page*/
+
+
+
+
+/* palces page */
+
+
+.placess{
+	padding: 100px 0; /* can use margin top */
+/*	background-repeat: repeat;*/
+	background-image:url(middle/danny-postma-9Y5NzSquU4M-unsplash.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+/*	background-attachment: fixed;*/
+}
+.placess .heading{
+	text-transform: uppercase;
+/*	margin-top: 8%;*/
+	margin-bottom: 5%;
+	color: white;
+}
+.placess .pls img{
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.8s;
+	height: 140px;
+	
+}
+.placess .pls img:hover{
+	transform: scale(1.25);
+}
+.placess .pls .heading{
+	display: block;
+	text-shadow: -2px 2px 2px #000;
+	font-size: 14px;
+	font-weight: 300px;
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	color: white;
+	transform: translate(-50%,-50%);
+	
+}
+.placess .pls{
+	position: relative;
+	margin-bottom: 30px;
+}
+.placess .aa{
+	color: white;
+}
+
+/*End of palces page */
+
+
+
+
+
+/*Maps page*/
+
+
+.map{
+	height: 500px;
+	width: 100%;
+}
+.map .h1{
+	margin-top: 8%;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+
+}
+
+/*End of Maps page*/
+
+
+
+
+/*Banner*/
+.banner{
+	height: 500px;
+	background-image:url(middle/123777522.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 10%;
+}
+.banner-highlight{
+	padding: 25px 0;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+	color: #fff;
+}
+.booking-btn{
+	width: 120px;
+	padding: 8px 0;
+	outline: none !important;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	color: #fff;
+	margin-top: 20px;
+}
+
+/*Banner*/
+
+
+
+
+ /*Contact page*/
+
+.contact{
+	background-color: whitesmoke;
+	padding-top: 60px;
+	
+}
+.contact .iri{
+	color: darkgreen;
+	margin-top: -20px;
+}
+textarea{
+	margin-left: 15px;
+}
+
+ /*End ofContact page*/
+
+
+
+ /*start of footer page*/
+
+.footer{
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+	
+}
+.footer .booking-btn{
+	width: 120px;
+	padding: 8px 0;
+	outline: none !important;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	background: transparent;
+	color: #fff;
+	margin-top: 20px;
+}
+.footer .col-md-3{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+/*end of footer page*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
